@@ -1,0 +1,31 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "firstName": "Alireza",
+  "lastName": "Shahnazari",
+  "email": "test1@test.com",
+  "password": "Password@12345"
+}
+
+
+POST http://localhost:3000/users/create-many
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoidGVzdDFAdGVzdC5jb20iLCJpYXQiOjE3OTI2NjAyMDIsImV4cCI6MTc5MjY2MzgwMiwiYXVkIjoibG9jYWxob3N0OjMwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6MzAwMCJ9.UB-qCqF1Qf9j5RV258y0-K6pvXImqZdKvFDiRVlWD0g
+
+{
+  "users": [
+    {
+      "firstName": "Alireza",
+      "lastName": "Shahnazari",
+      "email": "test@test.com",
+      "password": "Password@1234"
+    },
+    {
+      "firstName": "Alireza",
+      "lastName": "Shahnazari",
+      "email": "test@test.com",
+      "password": "Password@1234"
+    }
+  ]
+}

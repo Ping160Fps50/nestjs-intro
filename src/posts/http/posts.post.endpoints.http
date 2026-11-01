@@ -1,0 +1,18 @@
+POST http://localhost:3000/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoidGVzdDFAdGVzdC5jb20iLCJpYXQiOjE3OTI2NjAyMDIsImV4cCI6MTc5MjY2MzgwMiwiYXVkIjoibG9jYWxob3N0OjMwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6MzAwMCJ9.UB-qCqF1Qf9j5RV258y0-K6pvXImqZdKvFDiRVlWD0g
+
+{
+  "title": "First Post",
+  "postType": "post",
+  "slug": "my-url-2",
+  "status": "draft",
+  "content": "My First Post",
+  "schema": "{\r\n \"@context\": \"https:\/\/schema.org\",\r\n \"@type\": \"Person\"\r\n }",
+  "featuredImageUrl": "http://localhost:3000/images/image.jpg",
+  "publishOn": "2024-03-16T07:46:32+0000",
+  "metaOptions": {
+    "metaValue": "{\"sideBarEnabled\": true, \"footerActive\": true}"
+  },
+  "tags": [1]
+}

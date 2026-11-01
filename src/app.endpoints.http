@@ -1,0 +1,2 @@
+# Get request to /
+GET http://localhost:3000/
